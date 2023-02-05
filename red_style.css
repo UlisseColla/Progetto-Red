@@ -1,0 +1,198 @@
+/* Fonts */
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+    color: var(--col-1);
+}
+
+p {
+    color: black;
+}
+
+p.fs-5 {
+    color: var(--col-1);
+}
+
+em {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Nova Square', cursive;
+    color: var(--col-1);
+}
+
+
+/* Colori */
+
+:root {
+    --col-1: darkred;
+    --col-2: #C67F7F;
+    --col-3: #ececec;
+}
+
+.bg-col-1 {
+    background-color: var(--col-1);
+}
+
+.bg-col-2 {
+    background-color: var(--col-2);
+}
+
+.bg-col-3 {
+    background-color: var(--col-3);
+}
+
+.color-1 {
+    color: var(--col-1);
+}
+
+/* Navbar */
+
+.logo-red {
+    width: 100px;
+}
+
+.link-custom-nav {
+    text-decoration: none;
+    color: var(--col-1);
+}
+
+.link-custom-nav:link {
+    color: var(--col-1);
+}
+
+.link-custom-nav:active {
+    color: var(--col-1);
+}
+
+.link-custom-nav:hover {
+    color: var(--col-2);
+}
+
+/* Header */
+
+.header-img {
+    background-image: linear-gradient(rgb(255,255,255,1),rgb(255, 255, 255,0.0)), url(./media-red/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-size {
+    height: 100vh;
+}
+
+h1 {
+    letter-spacing: 50px;
+}
+
+.mountain-logo {
+    width: 100%;
+    position: absolute;
+    bottom: -110px;
+    margin-bottom: 0px;
+}
+
+/* Section 2 */
+
+.pallino {
+    height: 5px;
+    width: 100%;
+    border: solid 1px var(--col-1);
+    background-color: var(--col-1);
+    position: relative;
+}
+
+.pallino::before{
+    position: absolute;
+    bottom: -5px;
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid var(--col-1);
+}
+
+/* Section 3 */
+
+.tree-logo-1 {
+    width: 100%;
+}
+
+.bottone {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 40px;
+    background-color: var(--col-1);
+    color: white;
+    border: solid 2px var(--col-1);
+}
+
+
+/* Timeline */
+
+.timeline {
+    border-left: solid 2px var(--col-1);
+}
+
+.pallino-timeline::before {
+    position: absolute;
+    top: 0px;
+    left: -21px;
+    content: "";
+    border: solid 2px var(--col-1);
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.tree-logo-2 {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+}
+
+/* Our Team */
+
+.team-img {
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 5px var(--col-1);
+}
+
+/* Our Benefit 
+
+Le immagini di questa sezione hanno la stessa classe delle immagini della sezione precedente per definire il bordo, la dimesione invece è definita all'interno del tag stesso */
+
+/* Pre-footer */
+
+.img-100-width {
+    width: 100%;
+}
+
+/* Footer */
+
+.footer-text-col {
+    color: var(--col-3) !important;
+}
+
+.link-custom {
+    color: var(--col-3);
+    text-decoration: none;
+}
+
+.link-custom:link {
+    color: var(--col-3);
+}
+
+.link-custom:active {
+    color: var(--col-3);
+}
+
+.link-custom:hover {
+    color: white;
+}
